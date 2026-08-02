@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saul Alonso Vasquez Arizmendi — CS Student &amp; Developer</title>
+  <meta name="description" content="Portfolio of Saul Alonso Vasquez Arizmendi, a Computer Science student building web and mobile projects.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner container">
+      <a href="#top" class="logo">saulvas<span class="accent">.</span>dev</a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero container" id="top">
+      <p class="status"><span class="status-dot" aria-hidden="true"></span>Open to internships &amp; new grad roles</p>
+      <h1 class="hero-name">Saul Alonso Vasquez Arizmendi<span class="cursor" aria-hidden="true">_</span></h1>
+      <p class="role">Computer Science Student</p>
+      <p class="hero-desc">
+        Final-year CS student who learns by building. My projects range
+        from a graduation platform to hackathon prototypes built in a
+        weekend — each one taught me something a classroom couldn't.
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about container" id="about">
+      <div class="about-text">
+        <h2>About</h2>
+        <p>
+          I'm in my final year of a Computer Science degree, and most of
+          what I know comes from shipping actual projects rather than
+          just coursework — a graduation platform, and two hackathons
+          where I built something functional in under 48 hours.
+        </p>
+        <p>
+          I haven't worked a professional dev job yet, but I've learned
+          to move fast, work in a team under pressure, and finish what
+          I start — even when the result isn't perfect.
+        </p>
+      </div>
+      <div class="about-skills">
+        <h3>Toolbox</h3>
+        <ul class="tag-list">
+          <li class="tag">JavaScript</li>
+          <li class="tag">Python</li>
+          <li class="tag">Java / Kotlin</li>
+          <li class="tag">React</li>
+          <li class="tag">FASTAPI</li>
+          <li class="tag">Firebase</li>
+          <li class="tag">SQL</li>
+          <li class="tag">Android Studio</li>
+          <li class="tag">Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work container" id="work">
+      <h2>Selected work</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <div>
+              <span class="project-badge">Graduation project</span>
+              <h3>RockItLearn</h3>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="View live site">Live</a>
+              <a href="#" aria-label="View source on GitHub">Code</a>
+            </div>
+          </div>
+          <p>
+            A musical teaching platform built as my capstone project,
+            designed to help students learn instruments through
+            structured, interactive lessons.
+          </p>
+          <ul class="tag-list mono">
+            <li class="tag">+ JavaScript</li>
+            <li class="tag">+ React</li>
+            <li class="tag">+ FASTAPI</li>
+            <li class="tag">+ Firebase</li>
+            <li class="tag">+ Machine Learnig</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <div>
+              <span class="project-badge">Hackathon</span>
+              <h3>ZenZtudentZone</h3>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="View live site">Live</a>
+              <a href="#" aria-label="View source on GitHub">Code</a>
+            </div>
+          </div>
+          <p>
+            An Android app built in a weekend hackathon, featuring a
+            chatbot that offers students support and resources for
+            mental health.
+          </p>
+          <ul class="tag-list mono">
+            <li class="tag">+ Kotlin</li>
+            <li class="tag">+ Android Studio</li>
+            <li class="tag">+ Firebase</li>
+            <li class="tag">+ Chatbot</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <div>
+              <span class="project-badge">Hackathon</span>
+              <h3>Mobility &amp; Tourism Web App</h3>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="View live site">Live</a>
+              <a href="#" aria-label="View source on GitHub">Code</a>
+            </div>
+          </div>
+          <p>
+            A web app built at a hackathon to help visitors plan routes
+            around the city and discover local attractions, built
+            against a tight 48-hour deadline.
+          </p>
+          <ul class="tag-list mono">
+            <li class="tag">+ React</li>
+            <li class="tag">+ </li>
+            <li class="tag">+ API integration</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact container" id="contact">
+      <h2>Let's build something</h2>
+      <p>
+        I'm currently open to full-time roles and select freelance work.
+        The fastest way to reach me is email.
+      </p>
+      <a class="contact-email" href="mailto:saul.vasquez.wkr05@gmail.com">saul.vasquez.wkr05@gmail.com</a>
+      <div class="contact-links">
+        <a href="https://github.com/savaDev25" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer container">
+    <p>© 2026 Saul Alonso Vasquez Arizmendi. Built with GitHub Pages.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
